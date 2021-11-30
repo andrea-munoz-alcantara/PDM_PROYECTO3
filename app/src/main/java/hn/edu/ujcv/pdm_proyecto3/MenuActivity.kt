@@ -14,7 +14,7 @@ import kotlin.random.Random
 class MenuActivity : AppCompatActivity() {
 
     private val exampleList = generateDummyList(500)
-    private val adapter = Adapter(exampleList)
+    private val adapter = ExampleAdapter(exampleList)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
