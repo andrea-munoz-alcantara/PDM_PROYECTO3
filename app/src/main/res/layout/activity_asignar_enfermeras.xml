@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AsignarEnfermerasActivity">
+
+    <TextView
+        android:id="@+id/txvTituloAsignarEnfermera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asignar Doctor"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+    <TextView
+        android:id="@+id/txvEnfermeraAsignar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor:"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <Spinner
+        android:id="@+id/spnEnfermeraAsignar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/txvCentroAsignarEnfermera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centro de Vacunacion:"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Spinner
+        android:id="@+id/spnCentroAsignarEnfermera"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/txvHoraEnfermera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salario X Hora:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <EditText
+        android:id="@+id/txtHoraEnfermera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabNuevoEnfermera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <ImageButton
+        android:id="@+id/btnRegresarEnfermera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ImageButton
+        android:id="@+id/btnEditarEnfermera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <ImageButton
+        android:id="@+id/btnBorrarEnfermera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_delete"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <ImageButton
+        android:id="@+id/btnBuscarEnfermera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

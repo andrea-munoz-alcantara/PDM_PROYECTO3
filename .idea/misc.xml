@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_asignar_doctor.xml" value="0.10778985507246377" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_asignar_enfermeras.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_carnet_vacunacion.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_doctores.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_enfermos.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_ihssactivity.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_lote_vacuna.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_pacientes.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_porcentaje_departamento.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_vacunas.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/activity_vacunaton.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/PDM_PROYECTO3/app/src/main/res/layout/example_item.xml" value="0.18645833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
