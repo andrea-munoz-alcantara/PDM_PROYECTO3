@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".ConsultasActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MedicamentosActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FarmaceuticasActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EmpleadosActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PuestosActivity"
+            android:exported="true" />
+        <activity
             android:name=".PorcentajeDepartamentoActivity"
             android:exported="false" />
         <activity

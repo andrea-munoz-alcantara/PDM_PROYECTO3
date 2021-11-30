@@ -207,6 +207,7 @@
         app:layout_constraintVertical_bias="0.524" />
 
     <ListView
+        android:id="@+id/lstCentrosVacunacion"
         android:layout_width="410dp"
         android:layout_height="167dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -143,6 +143,7 @@
         app:srcCompat="@android:drawable/ic_menu_search" />
 
     <ListView
+        android:id="@+id/lstVacunaton"
         android:layout_width="409dp"
         android:layout_height="260dp"
         app:layout_constraintBottom_toBottomOf="parent"
